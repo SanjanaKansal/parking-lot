@@ -47,6 +47,7 @@ def get_spot_type_for_vehicle(vehicle):
 def get_charges(ticket):
 	return ticket.spot.out_time - ticket.in_time
 
+
 parking_floor.get_floor_status()
 
 my_scooter = vehicle.Vehicle('FK127', "two_wheeler")
